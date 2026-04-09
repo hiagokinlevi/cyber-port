@@ -2,12 +2,28 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 45** on **2026-04-09**
+- Last completed cycle: **Cycle 46** on **2026-04-09**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
+
+## Cycle 46 Summary
+
+- Target repository: `honeypot-foundry`
+- Focus area: close the remaining v0.2 protocol gap and align the public CLI identity with the new portfolio naming
+- Delivered:
+  - Added a new low-interaction `RDP banner observer` module in `honeypots/rdp/server.py`
+  - Added `run-rdp` to the project CLI with timeout and response-delay controls
+  - Added `rdp` as a first-class service type in the event model and JSON schema
+  - Closed the roadmap item `RDP banner observer` in `honeypot-foundry/ROADMAP.md`
+  - Standardized project-facing naming from `k1n` to `honeypot` within this repository docs/CLI metadata
+  - Added dedicated RDP unit + integration tests
+- Validation:
+  - `.venv/bin/python -m pytest -q`
+  - `.venv/bin/honeypot --help`
+  - Result: **808 tests passed**, total coverage **90.04%**, new `run-rdp` command validated
 
 ## Cycle 45 Summary
 
