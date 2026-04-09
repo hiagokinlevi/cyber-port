@@ -1,0 +1,43 @@
+name: Portfolio Status
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate portfolio status
+        run: |
+          python scripts/portfolio_status.py \
+            --base-dir "$GITHUB_WORKSPACE/.." \
+            --cache-dir "$GITHUB_WORKSPACE/.cache/portfolio-status" \
+            --clone-missing \
+            --output-md "$GITHUB_WORKSPACE/PORTFOLIO_STATUS.md" \
+            --output-json "$GITHUB_WORKSPACE/portfolio-status.json"
+
+      - name: Commit refreshed status
+        run: |
+          if git diff --quiet -- PORTFOLIO_STATUS.md portfolio-status.json; then
+            echo "No portfolio status changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add PORTFOLIO_STATUS.md portfolio-status.json
+          git commit -m "chore: refresh portfolio status"
+          git push
