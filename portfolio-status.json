@@ -1,7 +1,7 @@
 [
   {
     "name": "honeypot-foundry",
-    "path": "/Users/hiagokin/honeypot-foundry",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/honeypot-foundry",
     "latest_commit": "05da257",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Add RDP banner observer and honeypot CLI entrypoint",
@@ -20,11 +20,11 @@
     "python_module_count": 52,
     "completion_band": "advanced",
     "target_track": "complete-now",
-    "priority_rank": 2
+    "priority_rank": 3
   },
   {
     "name": "dfir-attack-lab",
-    "path": "/Users/hiagokin/dfir-attack-lab",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/dfir-attack-lab",
     "latest_commit": "7a692d6",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -43,30 +43,30 @@
   },
   {
     "name": "waf-defense-rulepacks",
-    "path": "/Users/hiagokin/waf-defense-rulepacks",
-    "latest_commit": "19e1c92",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
+    "latest_commit": "975f252",
     "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Add host header attack pack and packaging baseline",
+    "latest_commit_message": "Initial public release",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 20,
+    "open_roadmap_items": 23,
     "open_roadmap_preview": [
+      "Cloudflare: Local File Inclusion (LFI) pack",
       "Cloudflare: Remote File Inclusion (RFI) pack",
-      "Cloudflare: API abuse / excessive data exposure pack",
-      "AWS WAF: IP reputation rule (using AWS Managed IP reputation list)"
+      "Cloudflare: Command injection pack"
     ],
-    "test_file_count": 19,
+    "test_file_count": 18,
     "prompt_doc_count": 1,
-    "python_module_count": 455,
-    "completion_band": "active",
-    "target_track": "complete-next",
-    "priority_rank": 10
+    "python_module_count": 39,
+    "completion_band": "expanding",
+    "target_track": "expand-then-complete",
+    "priority_rank": 12
   },
   {
     "name": "secure-pipeline-blueprints",
-    "path": "/Users/hiagokin/secure-pipeline-blueprints",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secure-pipeline-blueprints",
     "latest_commit": "32d2ea6",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -89,7 +89,7 @@
   },
   {
     "name": "ai-security-guardrails",
-    "path": "/Users/hiagokin/ai-security-guardrails",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ai-security-guardrails",
     "latest_commit": "cff9bc3",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -112,7 +112,7 @@
   },
   {
     "name": "iam-audit-lab",
-    "path": "/Users/hiagokin/iam-audit-lab",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/iam-audit-lab",
     "latest_commit": "db240ce",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -131,11 +131,11 @@
     "python_module_count": 47,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 12
+    "priority_rank": 11
   },
   {
     "name": "cloud-posture-watch",
-    "path": "/Users/hiagokin/cloud-posture-watch",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cloud-posture-watch",
     "latest_commit": "09f98d0",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -158,7 +158,7 @@
   },
   {
     "name": "secret-leak-sentinel",
-    "path": "/Users/hiagokin/secret-leak-sentinel",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
     "latest_commit": "3ff1d3f",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -181,30 +181,30 @@
   },
   {
     "name": "phishing-surface-monitor",
-    "path": "/Users/hiagokin/phishing-surface-monitor",
-    "latest_commit": "938d5f0",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/phishing-surface-monitor",
+    "latest_commit": "0110d24",
     "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit_message": "feat: add certificate transparency alert workflow and CLI monitor",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 8,
+    "open_roadmap_items": 5,
     "open_roadmap_preview": [
-      "CT log stream monitoring (crt.sh API)",
-      "Wildcard certificate alerts",
-      "New certificate registration notifications"
+      "MX record analysis for spoofing risk",
+      "SPF/DKIM/DMARC gap detection on lookalike domains",
+      "ICANN/Registrar takedown request templates"
     ],
-    "test_file_count": 15,
+    "test_file_count": 16,
     "prompt_doc_count": 0,
-    "python_module_count": 43,
-    "completion_band": "advanced",
+    "python_module_count": 45,
+    "completion_band": "near-complete",
     "target_track": "complete-now",
-    "priority_rank": 4
+    "priority_rank": 2
   },
   {
     "name": "container-defense-stack",
-    "path": "/Users/hiagokin/container-defense-stack",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/container-defense-stack",
     "latest_commit": "1461a63",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -227,7 +227,7 @@
   },
   {
     "name": "ir-playbooks-automation",
-    "path": "/Users/hiagokin/ir-playbooks-automation",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ir-playbooks-automation",
     "latest_commit": "19b9504",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -250,7 +250,7 @@
   },
   {
     "name": "cryptologik",
-    "path": "/Users/hiagokin/cryptologik",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cryptologik",
     "latest_commit": "45f8106",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "Initial public release",
@@ -269,11 +269,11 @@
     "python_module_count": 37,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 11
+    "priority_rank": 10
   },
   {
     "name": "offensive-gvuln",
-    "path": "/Users/hiagokin/offensive-gvuln",
+    "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/offensive-gvuln",
     "latest_commit": "c7fe08c",
     "latest_commit_date": "2026-04-09",
     "latest_commit_message": "feat: add signed risk acceptance workflow and CLI governance tools",
@@ -292,6 +292,6 @@
     "python_module_count": 38,
     "completion_band": "advanced",
     "target_track": "complete-now",
-    "priority_rank": 3
+    "priority_rank": 4
   }
 ]
