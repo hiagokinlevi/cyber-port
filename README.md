@@ -28,7 +28,7 @@ Everything published here is strictly defensive, authorized, and ethical.
 
 | Repository | Description | Maturity |
 |------------|-------------|----------|
-| [waf-defense-rulepacks](https://github.com/hiagokinlevi/waf-defense-rulepacks) | WAF rulesets for Cloudflare, AWS WAF, Azure WAF — SQLi/XSS/SSRF/LFI/Log4Shell packs, OWASP coverage analyzer, per-IP/per-path rate-limiting rulepack, ModSecurity CRS compatibility layer, rule test harness | Active Development |
+| [waf-defense-rulepacks](https://github.com/hiagokinlevi/waf-defense-rulepacks) | WAF rulesets for Cloudflare, AWS WAF, Azure WAF — SQLi/XSS/SSRF/LFI/command-injection/Log4Shell packs, OWASP coverage analyzer, per-IP/per-path rate-limiting rulepack, ModSecurity CRS compatibility layer, rule test harness | Active Development |
 | [secure-pipeline-blueprints](https://github.com/hiagokinlevi/secure-pipeline-blueprints) | Secure CI/CD blueprints for GitHub Actions, GitLab CI, Azure DevOps — SAST, SCA, secret scanning, IaC scanning, pipeline security auditor (PA001-PA008) | Active Development |
 | [offensive-gvuln](https://github.com/hiagokinlevi/offensive-gvuln) | Vulnerability management lifecycle, pentest governance, rules of engagement, evidence templates, remediation workflows | Active Development |
 
@@ -152,6 +152,7 @@ Detailed cycle memory and the current rotation queue live in [MEMORY.md](MEMORY.
 | Cycle 44 | 2026-04-09 | Completion-first execution model: added a formal completion strategy, upgraded the portfolio status engine to rank repositories by completion priority, regenerated the portfolio status artifacts, and reordered the memory queue so roadmap closure is prioritized before new expansion work (cyber-port) |
 | Cycle 45 | 2026-04-09 | DFIR completion pass: added the installable `k1n-dfir` console script, cross-platform collection commands for Linux/Windows/macOS, filtered report generation with HTML/CSV/JSON/JSONL/TXT export, packaging fixes for editable installs, new CLI/reporter tests, and README/roadmap sync (dfir-attack-lab) |
 | Cycle 46 | 2026-04-09 | Honeypot completion pass: added a low-interaction RDP banner observer, exposed `run-rdp` in the CLI, added `rdp` to the event schema/model, switched the published CLI entrypoint to `honeypot`, updated architecture/learning docs, and closed the v0.2 roadmap gap with new unit/integration tests (honeypot-foundry) |
+| Cycle 47 | 2026-04-09 | WAF completion pass: added a reviewed Cloudflare command injection pack, repaired the repo-wide `validate_pack.py --all` baseline so AWS/Azure templates no longer fail validation, synced the roadmap to close the LFI/SSRF/command-injection checklist drift, and regenerated the portfolio priority order with `waf-defense-rulepacks` reduced to 20 open roadmap items (waf-defense-rulepacks) |
 
 ---
 

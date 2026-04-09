@@ -2,12 +2,30 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 46** on **2026-04-09**
+- Last completed cycle: **Cycle 47** on **2026-04-09**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
+
+## Cycle 47 Summary
+
+- Target repository: `waf-defense-rulepacks`
+- Focus area: close the Cloudflare command injection roadmap gap and repair the documented pack-validation baseline
+- Delivered:
+  - Added `cloudflare/waf-rules/block_command_injection.json` as a reviewed Cloudflare command injection pack
+  - Repaired `shared/validators/validate_pack.py --all` so AWS/Azure template files with `_k1n_metadata` no longer fail pack validation
+  - Added validator regression coverage for the new command injection pack and for template skipping
+  - Synced the repository roadmap to mark the already-shipped LFI and SSRF packs plus the new command injection pack as complete
+  - Updated the repository status badge from `Bootstrap` to `Active Development`
+- Validation:
+  - `python3 shared/validators/validate_pack.py --all`
+  - `python3 -m pytest -q`
+  - Result: **15/15 pack files valid**, **1628 tests passed**, baseline validator flow repaired
+- Publish:
+  - Local commit created: `f4acb24` (`Add Cloudflare command injection pack`)
+  - `git push origin main` blocked in this environment by DNS/network resolution for `github.com`
 
 ## Cycle 46 Summary
 
@@ -108,14 +126,15 @@
 6. `secret-leak-sentinel`
 7. `ir-playbooks-automation`
 8. `secure-pipeline-blueprints`
-9. `cryptologik`
-10. `iam-audit-lab`
-11. `waf-defense-rulepacks`
+9. `waf-defense-rulepacks`
+10. `cryptologik`
+11. `iam-audit-lab`
 12. `ai-security-guardrails`
 13. `dfir-attack-lab` (beyond-ready, maintain only as needed)
 
 ## Next Cycle Intent
 
 - Validate `honeypot-foundry` again and close the next visible roadmap gap
+- Prefer the Helm chart deployment baseline if it can close multiple remaining operational gaps in one pass
 - Prefer improvements that close visible roadmap gaps before starting new expansion work
 - Keep every GitHub-facing artifact in English and preserve the CC BY 4.0 baseline

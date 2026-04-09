@@ -44,25 +44,25 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/Users/hiagokin/waf-defense-rulepacks",
-    "latest_commit": "975f252",
+    "latest_commit": "f4acb24",
     "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit_message": "Add Cloudflare command injection pack",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 23,
+    "open_roadmap_items": 20,
     "open_roadmap_preview": [
-      "Cloudflare: Local File Inclusion (LFI) pack",
       "Cloudflare: Remote File Inclusion (RFI) pack",
-      "Cloudflare: Command injection pack"
+      "Cloudflare: API abuse / excessive data exposure pack",
+      "AWS WAF: IP reputation rule (using AWS Managed IP reputation list)"
     ],
     "test_file_count": 18,
     "prompt_doc_count": 1,
     "python_module_count": 39,
-    "completion_band": "expanding",
-    "target_track": "expand-then-complete",
-    "priority_rank": 12
+    "completion_band": "active",
+    "target_track": "complete-next",
+    "priority_rank": 10
   },
   {
     "name": "secure-pipeline-blueprints",
@@ -131,7 +131,7 @@
     "python_module_count": 47,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 11
+    "priority_rank": 12
   },
   {
     "name": "cloud-posture-watch",
@@ -269,7 +269,7 @@
     "python_module_count": 37,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 10
+    "priority_rank": 11
   },
   {
     "name": "offensive-gvuln",
