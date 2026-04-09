@@ -2,12 +2,30 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 47** on **2026-04-09**
+- Last completed cycle: **Cycle 48** on **2026-04-09**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
+
+## Cycle 48 Summary
+
+- Target repository: `offensive-gvuln`
+- Focus area: close the v0.4 governance gap for signed risk acceptance with approver validation
+- Delivered:
+  - Added `vuln_management/risk_acceptance.py` with signed risk-acceptance records, expiry windows, signature verification, expiring-record filtering, and lifecycle apply integration
+  - Added CLI workflow in `cli/main.py`: `risk-acceptance create`, `verify`, `expiring`, and `apply`
+  - Added regression test suite `tests/test_risk_acceptance.py` for core logic + CLI behavior
+  - Closed roadmap item `Risk acceptance workflow with approver signatures`
+  - Fixed CVSS scoring weights in `vuln_management/cvss.py` to align with CVSS v3.1 expected values
+  - Synced README and architecture documentation for the new governance workflow
+- Validation:
+  - `pytest -q`
+  - Result: **578 tests passed**, total coverage **91.33%**
+- Publish:
+  - Commit: `c7fe08c` (`feat: add signed risk acceptance workflow and CLI governance tools`)
+  - Push: `git push origin main` succeeded
 
 ## Cycle 47 Summary
 
@@ -118,23 +136,23 @@
 
 ## Rotation Queue
 
-1. `honeypot-foundry`
-2. `offensive-gvuln`
-3. `phishing-surface-monitor`
-4. `container-defense-stack`
-5. `cloud-posture-watch`
-6. `secret-leak-sentinel`
-7. `ir-playbooks-automation`
-8. `secure-pipeline-blueprints`
-9. `waf-defense-rulepacks`
-10. `cryptologik`
-11. `iam-audit-lab`
-12. `ai-security-guardrails`
+1. `phishing-surface-monitor`
+2. `container-defense-stack`
+3. `cloud-posture-watch`
+4. `secret-leak-sentinel`
+5. `ir-playbooks-automation`
+6. `secure-pipeline-blueprints`
+7. `waf-defense-rulepacks`
+8. `cryptologik`
+9. `iam-audit-lab`
+10. `ai-security-guardrails`
+11. `honeypot-foundry`
+12. `offensive-gvuln`
 13. `dfir-attack-lab` (beyond-ready, maintain only as needed)
 
 ## Next Cycle Intent
 
-- Validate `honeypot-foundry` again and close the next visible roadmap gap
-- Prefer the Helm chart deployment baseline if it can close multiple remaining operational gaps in one pass
-- Prefer improvements that close visible roadmap gaps before starting new expansion work
+- Advance `phishing-surface-monitor` to close one high-value roadmap gap with clear operational utility for analysts
+- Prefer a monitor/alerting capability that improves real-world triage speed (for example CT stream or certificate-change automation)
+- Keep completion-first priority while preserving strict defensive and ethical boundaries
 - Keep every GitHub-facing artifact in English and preserve the CC BY 4.0 baseline

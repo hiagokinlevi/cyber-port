@@ -44,9 +44,9 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/Users/hiagokin/waf-defense-rulepacks",
-    "latest_commit": "f4acb24",
+    "latest_commit": "19e1c92",
     "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Add Cloudflare command injection pack",
+    "latest_commit_message": "Add host header attack pack and packaging baseline",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
@@ -57,9 +57,9 @@
       "Cloudflare: API abuse / excessive data exposure pack",
       "AWS WAF: IP reputation rule (using AWS Managed IP reputation list)"
     ],
-    "test_file_count": 18,
+    "test_file_count": 19,
     "prompt_doc_count": 1,
-    "python_module_count": 39,
+    "python_module_count": 455,
     "completion_band": "active",
     "target_track": "complete-next",
     "priority_rank": 10
@@ -274,22 +274,22 @@
   {
     "name": "offensive-gvuln",
     "path": "/Users/hiagokin/offensive-gvuln",
-    "latest_commit": "d10757a",
+    "latest_commit": "c7fe08c",
     "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit_message": "feat: add signed risk acceptance workflow and CLI governance tools",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 8,
+    "open_roadmap_items": 7,
     "open_roadmap_preview": [
       "FastAPI REST service for findings CRUD",
       "JWT authentication",
       "WebSocket live SLA breach alerts"
     ],
-    "test_file_count": 12,
+    "test_file_count": 13,
     "prompt_doc_count": 0,
-    "python_module_count": 36,
+    "python_module_count": 38,
     "completion_band": "advanced",
     "target_track": "complete-now",
     "priority_rank": 3
