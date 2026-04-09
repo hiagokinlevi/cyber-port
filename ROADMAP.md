@@ -1,8 +1,8 @@
 # Portfolio Roadmap
 
-## Current State — Cycle 48: Completion-First Active Development (2026 Q2)
+## Current State — Cycle 49: Completion-First Active Development (2026 Q2)
 
-All 13 repositories are already live, indexed, and under active iteration. The portfolio no longer follows a one-time bootstrap model; it now evolves in numbered cycles, with each cycle selecting one repository for a concrete improvement, test validation, documentation sync, and memory update. `offensive-gvuln` has now closed its signed risk-acceptance governance gap with approver signature validation and CLI workflow support, while `phishing-surface-monitor` is the next completion-first target and `dfir-attack-lab` stays in beyond-ready maintenance mode.
+All 13 repositories are already live, indexed, and under active iteration. The portfolio no longer follows a one-time bootstrap model; it now evolves in numbered cycles, with each cycle selecting one repository for a concrete improvement, test validation, documentation sync, and memory update. `phishing-surface-monitor` has now closed its full v0.2 Certificate Transparency block (stream monitoring, wildcard alerts, and new-certificate notifications), while `honeypot-foundry` is the next completion-first target and `dfir-attack-lab` stays in beyond-ready maintenance mode.
 
 ## Continuous Cycle Model
 

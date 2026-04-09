@@ -2,12 +2,32 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 48** on **2026-04-09**
+- Last completed cycle: **Cycle 49** on **2026-04-09**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
+
+## Cycle 49 Summary
+
+- Target repository: `phishing-surface-monitor`
+- Focus area: close the v0.2 Certificate Transparency monitoring roadmap block with practical analyst workflows
+- Delivered:
+  - Added `analyzers/ct_alerts.py` with stateful CT alerting for:
+    - new certificate registration notifications
+    - wildcard certificate alerts
+    - lookalike certificate filtering and structured alert batches
+  - Added new CLI command `ct-monitor` in `cli/main.py` with state persistence, JSON export, and fail-on-alerts mode
+  - Added full regression coverage in `tests/test_ct_alerts.py` for state handling, alert generation, and CLI behavior
+  - Closed all v0.2 roadmap items in `phishing-surface-monitor/ROADMAP.md`
+  - Synced README usage examples and architecture documentation to reflect delivered CT capabilities
+- Validation:
+  - `pytest -q`
+  - Result: **1322 tests passed**, total coverage **93.48%**
+- Publish:
+  - Commit: `0110d24` (`feat: add certificate transparency alert workflow and CLI monitor`)
+  - Push: `git push origin main` succeeded
 
 ## Cycle 48 Summary
 
@@ -136,23 +156,23 @@
 
 ## Rotation Queue
 
-1. `phishing-surface-monitor`
-2. `container-defense-stack`
-3. `cloud-posture-watch`
-4. `secret-leak-sentinel`
-5. `ir-playbooks-automation`
-6. `secure-pipeline-blueprints`
-7. `waf-defense-rulepacks`
-8. `cryptologik`
-9. `iam-audit-lab`
-10. `ai-security-guardrails`
-11. `honeypot-foundry`
-12. `offensive-gvuln`
+1. `honeypot-foundry`
+2. `offensive-gvuln`
+3. `container-defense-stack`
+4. `cloud-posture-watch`
+5. `secret-leak-sentinel`
+6. `ir-playbooks-automation`
+7. `secure-pipeline-blueprints`
+8. `waf-defense-rulepacks`
+9. `cryptologik`
+10. `iam-audit-lab`
+11. `phishing-surface-monitor`
+12. `ai-security-guardrails`
 13. `dfir-attack-lab` (beyond-ready, maintain only as needed)
 
 ## Next Cycle Intent
 
-- Advance `phishing-surface-monitor` to close one high-value roadmap gap with clear operational utility for analysts
-- Prefer a monitor/alerting capability that improves real-world triage speed (for example CT stream or certificate-change automation)
+- Advance `honeypot-foundry` to close the next deployment-focused completion gap
+- Prefer Helm baseline + operational deployment hardening to accelerate real-world adoption
 - Keep completion-first priority while preserving strict defensive and ethical boundaries
 - Keep every GitHub-facing artifact in English and preserve the CC BY 4.0 baseline

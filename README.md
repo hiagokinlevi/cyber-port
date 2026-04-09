@@ -154,6 +154,7 @@ Detailed cycle memory and the current rotation queue live in [MEMORY.md](MEMORY.
 | Cycle 46 | 2026-04-09 | Honeypot completion pass: added a low-interaction RDP banner observer, exposed `run-rdp` in the CLI, added `rdp` to the event schema/model, switched the published CLI entrypoint to `honeypot`, updated architecture/learning docs, and closed the v0.2 roadmap gap with new unit/integration tests (honeypot-foundry) |
 | Cycle 47 | 2026-04-09 | WAF completion pass: added a reviewed Cloudflare command injection pack, repaired the repo-wide `validate_pack.py --all` baseline so AWS/Azure templates no longer fail validation, synced the roadmap to close the LFI/SSRF/command-injection checklist drift, and regenerated the portfolio priority order with `waf-defense-rulepacks` reduced to 20 open roadmap items (waf-defense-rulepacks) |
 | Cycle 48 | 2026-04-09 | Vulnerability governance completion pass: added signed risk-acceptance records with approver validation, expiry checks, CLI workflows (`create/verify/expiring/apply`), regression tests, and CVSS v3.1 weight corrections while closing the roadmap gap in `offensive-gvuln` (offensive-gvuln) |
+| Cycle 49 | 2026-04-09 | Phishing monitoring completion pass: added a stateful Certificate Transparency alert workflow (`analyzers/ct_alerts.py`), new `ct-monitor` CLI command with JSON export and fail-on-alerts mode, regression coverage for state and alerting logic, and closed all v0.2 CT roadmap items in `phishing-surface-monitor` (phishing-surface-monitor) |
 
 ---
 
