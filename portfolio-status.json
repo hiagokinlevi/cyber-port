@@ -44,25 +44,25 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
-    "latest_commit": "975f252",
-    "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit": "57b4f2e",
+    "latest_commit_date": "2026-04-11",
+    "latest_commit_message": "Expand WAF platform coverage and guides",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 23,
+    "open_roadmap_items": 15,
     "open_roadmap_preview": [
-      "Cloudflare: Local File Inclusion (LFI) pack",
-      "Cloudflare: Remote File Inclusion (RFI) pack",
-      "Cloudflare: Command injection pack"
+      "Cloudflare: API abuse / excessive data exposure pack",
+      "F5 BIG-IP: ASM policy export template",
+      "Deployment guide: Azure WAF"
     ],
-    "test_file_count": 18,
+    "test_file_count": 20,
     "prompt_doc_count": 1,
-    "python_module_count": 39,
-    "completion_band": "expanding",
-    "target_track": "expand-then-complete",
-    "priority_rank": 12
+    "python_module_count": 46,
+    "completion_band": "active",
+    "target_track": "complete-next",
+    "priority_rank": 7
   },
   {
     "name": "secure-pipeline-blueprints",
@@ -85,7 +85,7 @@
     "python_module_count": 41,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 9
+    "priority_rank": 10
   },
   {
     "name": "ai-security-guardrails",
@@ -131,7 +131,7 @@
     "python_module_count": 47,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 11
+    "priority_rank": 12
   },
   {
     "name": "cloud-posture-watch",
@@ -154,7 +154,7 @@
     "python_module_count": 43,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 7
+    "priority_rank": 8
   },
   {
     "name": "secret-leak-sentinel",
@@ -246,7 +246,7 @@
     "python_module_count": 34,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 8
+    "priority_rank": 9
   },
   {
     "name": "cryptologik",
@@ -269,7 +269,7 @@
     "python_module_count": 58,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 10
+    "priority_rank": 11
   },
   {
     "name": "offensive-gvuln",
