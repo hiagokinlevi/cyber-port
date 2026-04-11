@@ -20,7 +20,7 @@
     "python_module_count": 52,
     "completion_band": "advanced",
     "target_track": "complete-now",
-    "priority_rank": 3
+    "priority_rank": 5
   },
   {
     "name": "dfir-attack-lab",
@@ -39,7 +39,7 @@
     "python_module_count": 52,
     "completion_band": "near-complete",
     "target_track": "beyond-ready",
-    "priority_rank": 1
+    "priority_rank": 2
   },
   {
     "name": "waf-defense-rulepacks",
@@ -62,7 +62,7 @@
     "python_module_count": 46,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 7
+    "priority_rank": 8
   },
   {
     "name": "secure-pipeline-blueprints",
@@ -136,48 +136,44 @@
   {
     "name": "cloud-posture-watch",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cloud-posture-watch",
-    "latest_commit": "09f98d0",
-    "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit": "ddb3b93",
+    "latest_commit_date": "2026-04-11",
+    "latest_commit_message": "Ignore local Python cache artifacts",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 17,
-    "open_roadmap_preview": [
-      "AWS EC2 security group collector (SSH/RDP world-open detection)",
-      "AWS VPC flow logs coverage check",
-      "Azure NSG collector"
-    ],
-    "test_file_count": 11,
+    "open_roadmap_items": 0,
+    "open_roadmap_preview": [],
+    "test_file_count": 26,
     "prompt_doc_count": 1,
-    "python_module_count": 43,
-    "completion_band": "active",
-    "target_track": "complete-next",
-    "priority_rank": 8
+    "python_module_count": 77,
+    "completion_band": "near-complete",
+    "target_track": "beyond-ready",
+    "priority_rank": 1
   },
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "d0bfd9b",
+    "latest_commit": "34a2d79",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Add HashiCorp Vault token detection",
+    "latest_commit_message": "Document VS Code integration workflow",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 11,
+    "open_roadmap_items": 3,
     "open_roadmap_preview": [
-      "Deep git log scan (all commits in history, not just current tree)",
-      "Blob deduplication to avoid rescanning unchanged file content",
-      "Per-commit finding attribution (which commit introduced the secret)"
+      "ML-based classifier to reduce false positive rate on entropy findings",
+      "Context-aware analysis (is the file a test fixture? a documentation example?)",
+      "Cross-file correlation (e.g., same high-entropy string appears in multiple files)"
     ],
-    "test_file_count": 14,
+    "test_file_count": 20,
     "prompt_doc_count": 1,
-    "python_module_count": 44,
-    "completion_band": "advanced",
-    "target_track": "complete-next",
-    "priority_rank": 6
+    "python_module_count": 53,
+    "completion_band": "near-complete",
+    "target_track": "complete-now",
+    "priority_rank": 3
   },
   {
     "name": "phishing-surface-monitor",
@@ -200,7 +196,7 @@
     "python_module_count": 45,
     "completion_band": "near-complete",
     "target_track": "complete-now",
-    "priority_rank": 2
+    "priority_rank": 4
   },
   {
     "name": "container-defense-stack",
@@ -223,7 +219,7 @@
     "python_module_count": 43,
     "completion_band": "advanced",
     "target_track": "complete-now",
-    "priority_rank": 5
+    "priority_rank": 7
   },
   {
     "name": "ir-playbooks-automation",
@@ -292,6 +288,6 @@
     "python_module_count": 38,
     "completion_band": "advanced",
     "target_track": "complete-now",
-    "priority_rank": 4
+    "priority_rank": 6
   }
 ]
