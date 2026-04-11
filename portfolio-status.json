@@ -86,10 +86,10 @@
   {
     "name": "ai-security-guardrails",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ai-security-guardrails",
-    "latest_commit": "31f2202",
+    "latest_commit": "b10ed1a",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Cycle 62: block control-sequence output",
-    "latest_cycle": 62,
+    "latest_commit_message": "Cycle 64: reject boolean policy thresholds",
+    "latest_cycle": 64,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
