@@ -223,22 +223,22 @@
   {
     "name": "ir-playbooks-automation",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ir-playbooks-automation",
-    "latest_commit": "19b9504",
-    "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit": "f6a049a",
+    "latest_commit_date": "2026-04-11",
+    "latest_commit_message": "feat: add Azure VM isolation CLI",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 20,
+    "open_roadmap_items": 17,
     "open_roadmap_preview": [
-      "GCP Compute Engine isolation automation (`isolate_gcp_instance.py`)",
-      "Azure VM network isolation via NSG automation",
-      "S3 bucket public-access lockdown automation"
+      "GCS bucket exposure containment",
+      "Automated memory image metadata packaging",
+      "Cloud trail export packaging (CloudTrail, Azure Activity Log, GCP Audit Log)"
     ],
-    "test_file_count": 14,
+    "test_file_count": 19,
     "prompt_doc_count": 1,
-    "python_module_count": 34,
+    "python_module_count": 48,
     "completion_band": "active",
     "target_track": "complete-next",
     "priority_rank": 9
