@@ -155,22 +155,21 @@
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "34a2d79",
+    "latest_commit": "4bcb753",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Document VS Code integration workflow",
+    "latest_commit_message": "Keep classified finding labels backward compatible",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 3,
+    "open_roadmap_items": 2,
     "open_roadmap_preview": [
       "ML-based classifier to reduce false positive rate on entropy findings",
-      "Context-aware analysis (is the file a test fixture? a documentation example?)",
       "Cross-file correlation (e.g., same high-entropy string appears in multiple files)"
     ],
     "test_file_count": 20,
     "prompt_doc_count": 1,
-    "python_module_count": 53,
+    "python_module_count": 54,
     "completion_band": "near-complete",
     "target_track": "complete-now",
     "priority_rank": 3
