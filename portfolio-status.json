@@ -85,7 +85,7 @@
     "python_module_count": 41,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 9
+    "priority_rank": 10
   },
   {
     "name": "ai-security-guardrails",
@@ -154,30 +154,30 @@
     "python_module_count": 43,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 6
+    "priority_rank": 7
   },
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "3ff1d3f",
-    "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit": "b99e49f",
+    "latest_commit_date": "2026-04-10",
+    "latest_commit_message": "Add cloud credential secret detectors",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 19,
+    "open_roadmap_items": 14,
     "open_roadmap_preview": [
-      "Stripe API key patterns (`sk_live_`, `rk_live_`)",
-      "Twilio auth tokens",
-      "SendGrid API keys"
+      "JWT token detection (unsigned or weak-signature JWTs)",
+      "SSH private key detection (all formats)",
+      "HashiCorp Vault tokens"
     ],
     "test_file_count": 14,
     "prompt_doc_count": 1,
-    "python_module_count": 42,
+    "python_module_count": 44,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 7
+    "priority_rank": 6
   },
   {
     "name": "phishing-surface-monitor",
@@ -246,30 +246,30 @@
     "python_module_count": 34,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 8
+    "priority_rank": 9
   },
   {
     "name": "cryptologik",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cryptologik",
-    "latest_commit": "45f8106",
-    "latest_commit_date": "2026-04-09",
-    "latest_commit_message": "Initial public release",
+    "latest_commit": "128185c",
+    "latest_commit_date": "2026-04-10",
+    "latest_commit_message": "Add language-aware crypto validators",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 21,
+    "open_roadmap_items": 18,
     "open_roadmap_preview": [
-      "Language-specific validators for Java (JCA/JCE misuse), Go (crypto/tls misconfigs), JavaScript (node:crypto anti-patterns)",
-      "TLS configuration scanner (cipher suite analysis, protocol version checks)",
-      "Certificate chain validation tooling"
+      "PKCS#11 / HSM integration posture checks",
+      "Full SWC registry coverage (all 37 entries)",
+      "SCSVS (Smart Contract Security Verification Standard) mapping"
     ],
-    "test_file_count": 15,
+    "test_file_count": 17,
     "prompt_doc_count": 1,
-    "python_module_count": 37,
-    "completion_band": "expanding",
-    "target_track": "expand-then-complete",
-    "priority_rank": 10
+    "python_module_count": 41,
+    "completion_band": "active",
+    "target_track": "complete-next",
+    "priority_rank": 8
   },
   {
     "name": "offensive-gvuln",
