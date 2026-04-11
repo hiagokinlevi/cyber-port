@@ -44,18 +44,18 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
-    "latest_commit": "57b4f2e",
+    "latest_commit": "681ab28",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Expand WAF platform coverage and guides",
+    "latest_commit_message": "Remove legacy k1N branding from core WAF docs",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 15,
+    "open_roadmap_items": 14,
     "open_roadmap_preview": [
-      "Cloudflare: API abuse / excessive data exposure pack",
       "F5 BIG-IP: ASM policy export template",
-      "Deployment guide: Azure WAF"
+      "Deployment guide: Azure WAF",
+      "Deployment guide: F5"
     ],
     "test_file_count": 20,
     "prompt_doc_count": 1,
