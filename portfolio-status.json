@@ -85,7 +85,7 @@
     "python_module_count": 41,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 10
+    "priority_rank": 9
   },
   {
     "name": "ai-security-guardrails",
@@ -159,23 +159,23 @@
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "b99e49f",
-    "latest_commit_date": "2026-04-10",
-    "latest_commit_message": "Add cloud credential secret detectors",
+    "latest_commit": "d0bfd9b",
+    "latest_commit_date": "2026-04-11",
+    "latest_commit_message": "Add HashiCorp Vault token detection",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 14,
+    "open_roadmap_items": 11,
     "open_roadmap_preview": [
-      "JWT token detection (unsigned or weak-signature JWTs)",
-      "SSH private key detection (all formats)",
-      "HashiCorp Vault tokens"
+      "Deep git log scan (all commits in history, not just current tree)",
+      "Blob deduplication to avoid rescanning unchanged file content",
+      "Per-commit finding attribution (which commit introduced the secret)"
     ],
     "test_file_count": 14,
     "prompt_doc_count": 1,
     "python_module_count": 44,
-    "completion_band": "active",
+    "completion_band": "advanced",
     "target_track": "complete-next",
     "priority_rank": 6
   },
@@ -246,30 +246,30 @@
     "python_module_count": 34,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 9
+    "priority_rank": 8
   },
   {
     "name": "cryptologik",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cryptologik",
-    "latest_commit": "128185c",
-    "latest_commit_date": "2026-04-10",
-    "latest_commit_message": "Add language-aware crypto validators",
+    "latest_commit": "53139cd",
+    "latest_commit_date": "2026-04-11",
+    "latest_commit_message": "Add crypto agility and post-quantum assessment workflows",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 18,
+    "open_roadmap_items": 22,
     "open_roadmap_preview": [
       "PKCS#11 / HSM integration posture checks",
       "Full SWC registry coverage (all 37 entries)",
       "SCSVS (Smart Contract Security Verification Standard) mapping"
     ],
-    "test_file_count": 17,
+    "test_file_count": 21,
     "prompt_doc_count": 1,
-    "python_module_count": 41,
-    "completion_band": "active",
-    "target_track": "complete-next",
-    "priority_rank": 8
+    "python_module_count": 58,
+    "completion_band": "expanding",
+    "target_track": "expand-then-complete",
+    "priority_rank": 10
   },
   {
     "name": "offensive-gvuln",
