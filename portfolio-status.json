@@ -21,10 +21,10 @@
   {
     "name": "dfir-attack-lab",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/dfir-attack-lab",
-    "latest_commit": "da1a2d8",
+    "latest_commit": "0a9eacd",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Cycle 62: harden case manifest verification",
-    "latest_cycle": 62,
+    "latest_commit_message": "Cycle 63: add CEF timeline exports",
+    "latest_cycle": 63,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -40,9 +40,9 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
-    "latest_commit": "784c90a",
+    "latest_commit": "93df1ef",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "fix: detect legacy SSRF IP literal aliases",
+    "latest_commit_message": "fix: normalize trailing-dot host header targets",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
@@ -86,14 +86,14 @@
   {
     "name": "ai-security-guardrails",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ai-security-guardrails",
-    "latest_commit": "bbd69f8",
+    "latest_commit": "31f2202",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Cycle 61: harden middleware skip header",
-    "latest_cycle": 61,
+    "latest_commit_message": "Cycle 62: block control-sequence output",
+    "latest_cycle": 62,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 22,
+    "open_roadmap_items": 21,
     "open_roadmap_preview": [
       "Embedding-based injection detection (semantic similarity to known injection patterns)",
       "Per-tenant policy support (multi-tenant applications)",
@@ -104,19 +104,19 @@
     "python_module_count": 54,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 13
+    "priority_rank": 12
   },
   {
     "name": "iam-audit-lab",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/iam-audit-lab",
-    "latest_commit": "4430816",
+    "latest_commit": "0daf596",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Harden offline JSON evidence validation",
-    "latest_cycle": null,
+    "latest_commit_message": "Cycle 64: detect public GCP IAM bindings",
+    "latest_cycle": 64,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 21,
+    "open_roadmap_items": 20,
     "open_roadmap_preview": [
       "AWS: Detect unused IAM access keys (no use in N days)",
       "AWS: Identify roles with no trust policy referencing known services",
@@ -125,9 +125,9 @@
     "test_file_count": 16,
     "prompt_doc_count": 1,
     "python_module_count": 54,
-    "completion_band": "expanding",
-    "target_track": "expand-then-complete",
-    "priority_rank": 12
+    "completion_band": "active",
+    "target_track": "complete-next",
+    "priority_rank": 11
   },
   {
     "name": "cloud-posture-watch",
@@ -151,9 +151,9 @@
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "f190c40",
+    "latest_commit": "1bd4bfc",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Align GitHub token coverage across scans",
+    "latest_commit_message": "Add Slack token detection coverage",
     "latest_cycle": null,
     "required_files_present": 6,
     "required_files_total": 6,
@@ -173,10 +173,10 @@
   {
     "name": "phishing-surface-monitor",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/phishing-surface-monitor",
-    "latest_commit": "baff54b",
+    "latest_commit": "3481da5",
     "latest_commit_date": "2026-04-11",
-    "latest_commit_message": "Cycle 62: harden DNS hostname validation",
-    "latest_cycle": 62,
+    "latest_commit_message": "Cycle 63: harden email posture input validation",
+    "latest_cycle": 63,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -252,7 +252,7 @@
     "python_module_count": 61,
     "completion_band": "expanding",
     "target_track": "expand-then-complete",
-    "priority_rank": 11
+    "priority_rank": 13
   },
   {
     "name": "offensive-gvuln",
