@@ -2,7 +2,7 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 66** on **2026-04-11**
+- Last completed cycle: **Cycle 62** on **2026-04-12**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
@@ -10,42 +10,25 @@
 - Active strategy: **completion-first, then beyond**
 - Current priority order: `cloud-posture-watch`, `container-defense-stack`, `dfir-attack-lab`, `honeypot-foundry`, `offensive-gvuln`, and `phishing-surface-monitor` are now beyond-ready; the next actionable completion target is `secret-leak-sentinel`, followed by `waf-defense-rulepacks`, `ir-playbooks-automation`, `secure-pipeline-blueprints`, `ai-security-guardrails`, `cryptologik`, and `iam-audit-lab`
 
-## Cycle 66 Summary
+## Cycle 62 Summary
 
-- Target repository: `cryptologik` and `cyber-port`
-- Focus area: reject duplicate or whitespace-padded advanced assessment asset identifiers before `cryptologik` scores them, then sync the central index to the published lane state
+- Target repository: `ai-security-guardrails` and `cyber-port`
+- Focus area: reject malformed YAML regex rule definitions in `ai-security-guardrails`, then sync the central index to the published lane state
 - Delivered:
-  - Published `cryptologik` cycle 67 so advanced assessment inventories now reject duplicate `asset_id` values after normalization and fail closed on whitespace-only asset identifiers
-  - Added CLI regression coverage for duplicate `asset_id`, trimmed duplicate `asset_id`, and blank `asset_id` inputs in the published lane clone
-  - Regenerated `PORTFOLIO_STATUS.md` and `portfolio-status.json` against the published `cryptologik` SHA `1e05e49`, updating the central index to show `cryptologik` at cycle 67 and the portfolio backlog at **113** open roadmap items
-  - Synced `README.md` so the central evolution log records the advanced asset inventory hardening cycle
+  - Published an `ai-security-guardrails` hardening pass so YAML-backed regex rules now reject non-string required fields, unsupported categories, and boolean or non-numeric scores instead of silently coercing them
+  - Added regression coverage for boolean score, non-string pattern, and unknown category inputs in the custom regex rule loader
+  - Regenerated `PORTFOLIO_STATUS.md` and `portfolio-status.json`, then corrected the `ai-security-guardrails` entry to the published SHA so the central index reflects production instead of the stale local canonical clone
+  - Synced `README.md` so the portfolio evolution log records the regex-rule schema hardening cycle
 - Validation:
-  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q` in `/Users/hiagokin/cryptologik`
-  - `/Users/hiagokin/miniconda/bin/python3 scripts/portfolio_status.py --base-dir /Users/hiagokin --output-md PORTFOLIO_STATUS.md --output-json portfolio-status.json` in `/Users/hiagokin/.codex/worktrees/0f2d/cryptologik/central-worktree-066`
-  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q tests/test_portfolio_status.py` in `/Users/hiagokin/.codex/worktrees/0f2d/cryptologik/central-worktree-066`
-  - Result: the published lane clone passed its full pytest baseline, and the central portfolio generator plus central tests succeeded with the refreshed `cryptologik` cycle-67 state
+  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q tests/test_regex_rules.py` in `/Users/hiagokin/.codex/worktrees/413c/ai-security-guardrails/lane-runs/ai-security-guardrails-cycle-066-r2`
+  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q` in `/Users/hiagokin/.codex/worktrees/413c/ai-security-guardrails/lane-runs/ai-security-guardrails-cycle-066-r2`
+  - `python3 scripts/portfolio_status.py --base-dir /Users/hiagokin --output-md PORTFOLIO_STATUS.md --output-json portfolio-status.json`
+  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q tests/test_portfolio_status.py`
+  - Result: regex-rule regression coverage and the full lane suite passed in the published lane clone, and the central portfolio status generator plus central tests succeeded
 - Publish:
-  - Lane repo commit: `1e05e49` (`Cycle 67: harden advanced asset identifiers`)
-  - Lane publish request: `20260411T233430-324292e28c9b` -> success
-  - Next target for the AI/Crypto lane: `ai-security-guardrails`
-
-## Cycle 63 Summary
-
-- Target repository: `cryptologik` and `cyber-port`
-- Focus area: reject malformed TLS config arrays before `cryptologik` analyzes them, then sync the central index to the published lane state
-- Delivered:
-  - Published `cryptologik` cycle 63 so `review-tls-config` now rejects string-valued `cipher_suites` and non-string `tls_versions` entries instead of coercing them into misleading analyzer input
-  - Added focused CLI regression coverage for malformed TLS config array fields in the published lane clone
-  - Validated the central portfolio generator in the cycle-63 publish clone, then synced `PORTFOLIO_STATUS.md`, `portfolio-status.json`, and `README.md` to the published `cryptologik` SHA instead of the stale local canonical clone state
-- Validation:
-  - `/Users/hiagokin/miniconda/bin/python3 -m pytest tests/test_cli_tls_config.py tests/test_cli_generate_report.py tests/test_cli_advanced_assessments.py tests/test_cli_legacy_shim.py tests/test_cli_crypto_config.py -q` in `/Users/hiagokin/.codex/worktrees/8c3a/cryptologik/.lane-publish-cryptologik-63`
-  - `/Users/hiagokin/miniconda/bin/python3 scripts/portfolio_status.py --base-dir /Users/hiagokin --output-md PORTFOLIO_STATUS.md --output-json portfolio-status.json` in `/Users/hiagokin/.codex/worktrees/8c3a/cryptologik/.lane-publish-cyber-port-63`
-  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q tests/test_portfolio_status.py` in `/Users/hiagokin/.codex/worktrees/8c3a/cryptologik/.lane-publish-cyber-port-63`
-  - Result: TLS CLI regression coverage passed in the published lane clone, and the central portfolio generator plus central tests succeeded in the publish clone
-- Publish:
-  - Lane repo commit: `079c689` (`Cycle 63: validate TLS config arrays`)
-  - Lane publish request: `20260411T191934-010cb01c06b0` -> success
-  - Next target for the AI/Crypto lane: `ai-security-guardrails`
+  - Lane repo commit: `a4c4ac4` (`Cycle 66: harden regex rule schemas`)
+  - Lane publish request: `20260412T003005-5691b008d636` -> success
+  - Next target for the AI/Crypto lane: `cryptologik`
 
 ## Cycle 61 Summary
 
