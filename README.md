@@ -168,6 +168,7 @@ Detailed cycle memory and the current rotation queue live in [MEMORY.md](MEMORY.
 | Cycle 60 | 2026-04-11 | Central index traversal hardening: updated the portfolio status generator to reject repository-root symlink escapes outside the allowed clone/cache roots, ignore symlinked Python files during source counts, and added regression coverage so the central index cannot be skewed by out-of-tree content (cyber-port) |
 | Cycle 61 | 2026-04-11 | Crypto CT burst hardening: published a `cryptologik` fix so CT-ABU-001 catches threshold-sized issuance bursts inside larger multi-day windows, refreshed the central portfolio status artifacts, and synced the central history to the published SHA (cryptologik, cyber-port) |
 | Cycle 62 | 2026-04-12 | AI regex-rule schema hardening: published an `ai-security-guardrails` fix that rejects malformed YAML regex rule definitions, refreshed the central portfolio status artifacts to the published SHA, and promoted `cryptologik` as the next AI/Crypto lane target (ai-security-guardrails, cyber-port) |
+| Cycle 69 | 2026-04-12 | AI regex score hardening: published an `ai-security-guardrails` fix so non-finite YAML regex rule scores fail closed, refreshed the central portfolio status artifacts to the published cycle-69 SHA, and reduced the backlog to **112** open roadmap items (ai-security-guardrails, cyber-port) |
 
 ---
 

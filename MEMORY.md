@@ -2,13 +2,33 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 62** on **2026-04-12**
+- Last completed cycle: **Cycle 69** on **2026-04-12**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
 - Current priority order: `cloud-posture-watch`, `container-defense-stack`, `dfir-attack-lab`, `honeypot-foundry`, `offensive-gvuln`, and `phishing-surface-monitor` are now beyond-ready; the next actionable completion target is `secret-leak-sentinel`, followed by `waf-defense-rulepacks`, `ir-playbooks-automation`, `secure-pipeline-blueprints`, `ai-security-guardrails`, `cryptologik`, and `iam-audit-lab`
+
+## Cycle 69 Summary
+
+- Target repository: `ai-security-guardrails` and `cyber-port`
+- Focus area: reject non-finite YAML regex rule scores in `ai-security-guardrails`, then sync the central index to the published lane state
+- Delivered:
+  - Published an `ai-security-guardrails` hardening pass so YAML-backed regex rules now fail closed on non-finite score values instead of accepting `NaN` or infinity-like inputs
+  - Added regression coverage for non-finite regex rule scores in the published lane clone while preserving the full policy-engine baseline
+  - Regenerated `PORTFOLIO_STATUS.md` and `portfolio-status.json` against the published `ai-security-guardrails` SHA `2f5fa2f`, updating the central index to show cycle 69 and the portfolio backlog at **112** open roadmap items
+  - Synced `README.md` so the portfolio evolution log records the regex score hardening cycle
+- Validation:
+  - `python -m pytest -q tests/test_regex_rules.py tests/test_policy_engine.py tests/test_tool_policy.py` in `/Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/ai-security-guardrails-cycle-069.8CAtcV`
+  - `python -m pytest -q` in `/Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/ai-security-guardrails-cycle-069.8CAtcV`
+  - `python3 scripts/portfolio_status.py --base-dir /Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/portfolio-base-069.lzuOT6 --cache-dir /Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/portfolio-cache-069 --output-md PORTFOLIO_STATUS.md --output-json portfolio-status.json` in `/Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/cyber-port-cycle-069.ta7q52`
+  - `python3 -m pytest -q tests/test_portfolio_status.py` in `/Users/hiagokin/.codex/worktrees/aad8/ai-security-guardrails/.lane-runs/cyber-port-cycle-069.ta7q52`
+  - Result: the published lane clone passed its targeted and full pytest baselines, and the central portfolio generator plus central tests succeeded with the refreshed cycle-69 state
+- Publish:
+  - Lane repo commit: `2f5fa2f` (`Cycle 69: reject non-finite regex rule scores`)
+  - Lane publish request: `20260412T032823-9c654422c7bf` -> success
+  - Next target for the AI/Crypto lane: `cryptologik`
 
 ## Cycle 62 Summary
 
