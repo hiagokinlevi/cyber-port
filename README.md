@@ -169,6 +169,7 @@ Detailed cycle memory and the current rotation queue live in [MEMORY.md](MEMORY.
 | Cycle 61 | 2026-04-11 | Crypto CT burst hardening: published a `cryptologik` fix so CT-ABU-001 catches threshold-sized issuance bursts inside larger multi-day windows, refreshed the central portfolio status artifacts, and synced the central history to the published SHA (cryptologik, cyber-port) |
 | Cycle 63 | 2026-04-11 | TLS schema hardening: published a `cryptologik` fix so malformed TLS config arrays are rejected before analysis, refreshed the central portfolio status artifacts, and synced the central history to the published cycle-63 SHA (cryptologik, cyber-port) |
 | Cycle 65 | 2026-04-11 | Contract input hardening: published a `cryptologik` fix so unreadable or non-UTF-8 Solidity inputs fail closed instead of returning a misleading clean result, refreshed the central portfolio status artifacts, and synced the central history to the published cycle-65 SHA (cryptologik, cyber-port) |
+| Cycle 66 | 2026-04-11 | Advanced asset inventory hardening: published a `cryptologik` fix so duplicate or whitespace-padded advanced assessment asset IDs fail closed before scoring, refreshed the central portfolio status artifacts against the published cycle-67 SHA, and reduced the backlog to **113** open roadmap items (cryptologik, cyber-port) |
 
 ---
 

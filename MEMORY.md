@@ -2,13 +2,32 @@
 
 ## Current Status
 
-- Last completed cycle: **Cycle 63** on **2026-04-11**
+- Last completed cycle: **Cycle 66** on **2026-04-11**
 - Active cadence: continuous rotation across the 13 permanent repositories
 - Source of truth for portfolio history: this file + the `README.md` Evolution Log
 - License baseline: **CC BY 4.0** across the portfolio index and repository pillars
 - Cycle rule: inspect the current state, follow the completion-first priority order, run or repair the test baseline, ship one meaningful defensive improvement, then sync the central index and memory
 - Active strategy: **completion-first, then beyond**
-- Current priority order: `cloud-posture-watch`, `container-defense-stack`, `dfir-attack-lab`, `honeypot-foundry`, `offensive-gvuln`, and `phishing-surface-monitor` are now beyond-ready; the next actionable completion target is `secret-leak-sentinel`, followed by `waf-defense-rulepacks`, `ir-playbooks-automation`, `secure-pipeline-blueprints`, `cryptologik`, `iam-audit-lab`, and `ai-security-guardrails`
+- Current priority order: `cloud-posture-watch`, `container-defense-stack`, `dfir-attack-lab`, `honeypot-foundry`, `offensive-gvuln`, and `phishing-surface-monitor` are now beyond-ready; the next actionable completion target is `secret-leak-sentinel`, followed by `waf-defense-rulepacks`, `ir-playbooks-automation`, `secure-pipeline-blueprints`, `ai-security-guardrails`, `cryptologik`, and `iam-audit-lab`
+
+## Cycle 66 Summary
+
+- Target repository: `cryptologik` and `cyber-port`
+- Focus area: reject duplicate or whitespace-padded advanced assessment asset identifiers before `cryptologik` scores them, then sync the central index to the published lane state
+- Delivered:
+  - Published `cryptologik` cycle 67 so advanced assessment inventories now reject duplicate `asset_id` values after normalization and fail closed on whitespace-only asset identifiers
+  - Added CLI regression coverage for duplicate `asset_id`, trimmed duplicate `asset_id`, and blank `asset_id` inputs in the published lane clone
+  - Regenerated `PORTFOLIO_STATUS.md` and `portfolio-status.json` against the published `cryptologik` SHA `1e05e49`, updating the central index to show `cryptologik` at cycle 67 and the portfolio backlog at **113** open roadmap items
+  - Synced `README.md` so the central evolution log records the advanced asset inventory hardening cycle
+- Validation:
+  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q` in `/Users/hiagokin/cryptologik`
+  - `/Users/hiagokin/miniconda/bin/python3 scripts/portfolio_status.py --base-dir /Users/hiagokin --output-md PORTFOLIO_STATUS.md --output-json portfolio-status.json` in `/Users/hiagokin/.codex/worktrees/0f2d/cryptologik/central-worktree-066`
+  - `/Users/hiagokin/miniconda/bin/python3 -m pytest -q tests/test_portfolio_status.py` in `/Users/hiagokin/.codex/worktrees/0f2d/cryptologik/central-worktree-066`
+  - Result: the published lane clone passed its full pytest baseline, and the central portfolio generator plus central tests succeeded with the refreshed `cryptologik` cycle-67 state
+- Publish:
+  - Lane repo commit: `1e05e49` (`Cycle 67: harden advanced asset identifiers`)
+  - Lane publish request: `20260411T233430-324292e28c9b` -> success
+  - Next target for the AI/Crypto lane: `ai-security-guardrails`
 
 ## Cycle 63 Summary
 
