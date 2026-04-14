@@ -59,14 +59,14 @@
   {
     "name": "secure-pipeline-blueprints",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secure-pipeline-blueprints",
-    "latest_commit": "b6e87b2",
+    "latest_commit": "b03292c",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "fix: harden reusable secret scan token handling",
-    "latest_cycle": null,
+    "latest_commit_message": "docs(secure-pipeline-blueprints): update roadmap -- cycle 1",
+    "latest_cycle": 1,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 17,
+    "open_roadmap_items": 14,
     "open_roadmap_preview": [
       "Java/Maven secure pipeline blueprint (GitHub Actions)",
       "Java/Gradle secure pipeline blueprint (GitHub Actions)",
@@ -77,7 +77,7 @@
     "python_module_count": 53,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 10
+    "priority_rank": 9
   },
   {
     "name": "ai-security-guardrails",
@@ -224,7 +224,7 @@
     "python_module_count": 50,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 9
+    "priority_rank": 10
   },
   {
     "name": "cryptologik",
