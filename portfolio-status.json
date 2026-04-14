@@ -40,25 +40,21 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
-    "latest_commit": "e95b828",
+    "latest_commit": "b44454b",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "fix(validator): harden fallback pack validation",
-    "latest_cycle": null,
+    "latest_commit_message": "docs(waf-defense-rulepacks): update roadmap -- cycle 1",
+    "latest_cycle": 1,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 13,
-    "open_roadmap_preview": [
-      "Deployment guide: Azure WAF",
-      "Deployment guide: F5",
-      "Policy pack: `baseline_web_app` — composite pack with recommended baseline for generic web apps"
-    ],
+    "open_roadmap_items": 0,
+    "open_roadmap_preview": [],
     "test_file_count": 21,
     "prompt_doc_count": 1,
     "python_module_count": 47,
-    "completion_band": "active",
-    "target_track": "complete-next",
-    "priority_rank": 8
+    "completion_band": "near-complete",
+    "target_track": "beyond-ready",
+    "priority_rank": 7
   },
   {
     "name": "secure-pipeline-blueprints",
@@ -167,7 +163,7 @@
     "python_module_count": 59,
     "completion_band": "near-complete",
     "target_track": "complete-now",
-    "priority_rank": 7
+    "priority_rank": 8
   },
   {
     "name": "phishing-surface-monitor",
