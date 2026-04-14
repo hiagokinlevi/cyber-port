@@ -147,10 +147,10 @@
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "d3f9511",
+    "latest_commit": "3f2f33d",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "Fix cross-file correlation enrichment",
-    "latest_cycle": null,
+    "latest_commit_message": "docs(secret-leak-sentinel): update roadmap -- cycle 1",
+    "latest_cycle": 1,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -158,9 +158,9 @@
     "open_roadmap_preview": [
       "ML-based classifier to reduce false positive rate on entropy findings"
     ],
-    "test_file_count": 24,
+    "test_file_count": 25,
     "prompt_doc_count": 1,
-    "python_module_count": 59,
+    "python_module_count": 61,
     "completion_band": "near-complete",
     "target_track": "complete-now",
     "priority_rank": 8
@@ -187,10 +187,10 @@
   {
     "name": "container-defense-stack",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/container-defense-stack",
-    "latest_commit": "869d265",
+    "latest_commit": "b71880f",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "Cycle 65: ignore publish queue and Python caches",
-    "latest_cycle": 65,
+    "latest_commit_message": "docs(container-defense-stack): update roadmap -- cycle 1",
+    "latest_cycle": 1,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
