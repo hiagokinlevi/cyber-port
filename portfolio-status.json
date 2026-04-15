@@ -77,7 +77,7 @@
     "python_module_count": 53,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 10
+    "priority_rank": 11
   },
   {
     "name": "ai-security-guardrails",
@@ -105,14 +105,14 @@
   {
     "name": "iam-audit-lab",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/iam-audit-lab",
-    "latest_commit": "7a3a2f3",
+    "latest_commit": "d8f04ec",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "Cycle 65: canonicalize GCP public IAM principals",
-    "latest_cycle": 65,
+    "latest_commit_message": "docs(iam-audit-lab): update roadmap -- cycle 3",
+    "latest_cycle": 3,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
-    "open_roadmap_items": 20,
+    "open_roadmap_items": 12,
     "open_roadmap_preview": [
       "AWS: Detect unused IAM access keys (no use in N days)",
       "AWS: Identify roles with no trust policy referencing known services",
@@ -120,18 +120,18 @@
     ],
     "test_file_count": 17,
     "prompt_doc_count": 1,
-    "python_module_count": 55,
-    "completion_band": "active",
+    "python_module_count": 56,
+    "completion_band": "advanced",
     "target_track": "complete-next",
-    "priority_rank": 12
+    "priority_rank": 9
   },
   {
     "name": "cloud-posture-watch",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cloud-posture-watch",
-    "latest_commit": "8692ccb",
+    "latest_commit": "009b27a",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "docs(cloud-posture-watch): update roadmap -- cycle 1",
-    "latest_cycle": 1,
+    "latest_commit_message": "docs(cloud-posture-watch): update roadmap -- cycle 2",
+    "latest_cycle": 2,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -139,7 +139,7 @@
     "open_roadmap_preview": [],
     "test_file_count": 26,
     "prompt_doc_count": 1,
-    "python_module_count": 79,
+    "python_module_count": 80,
     "completion_band": "near-complete",
     "target_track": "beyond-ready",
     "priority_rank": 1
@@ -224,7 +224,7 @@
     "python_module_count": 50,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 11
+    "priority_rank": 12
   },
   {
     "name": "cryptologik",
@@ -247,15 +247,15 @@
     "python_module_count": 67,
     "completion_band": "active",
     "target_track": "complete-next",
-    "priority_rank": 9
+    "priority_rank": 10
   },
   {
     "name": "offensive-gvuln",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/offensive-gvuln",
-    "latest_commit": "3aab7dd",
+    "latest_commit": "bcd713a",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "docs(offensive-gvuln): update roadmap -- cycle 1",
-    "latest_cycle": 1,
+    "latest_commit_message": "docs(offensive-gvuln): update roadmap -- cycle 2",
+    "latest_cycle": 2,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
