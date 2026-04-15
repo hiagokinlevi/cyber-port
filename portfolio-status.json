@@ -59,10 +59,10 @@
   {
     "name": "secure-pipeline-blueprints",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secure-pipeline-blueprints",
-    "latest_commit": "b03292c",
+    "latest_commit": "a9c0872",
     "latest_commit_date": "2026-04-14",
-    "latest_commit_message": "docs(secure-pipeline-blueprints): update roadmap -- cycle 1",
-    "latest_cycle": 1,
+    "latest_commit_message": "docs(secure-pipeline-blueprints): update roadmap -- cycle 2",
+    "latest_cycle": 2,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
