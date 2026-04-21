@@ -206,10 +206,10 @@
   {
     "name": "ir-playbooks-automation",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ir-playbooks-automation",
-    "latest_commit": "8033e6a",
+    "latest_commit": "a5eb8fd",
     "latest_commit_date": "2026-04-21",
-    "latest_commit_message": "docs(ir-playbooks-automation): update roadmap -- cycle 23",
-    "latest_cycle": 23,
+    "latest_commit_message": "docs(ir-playbooks-automation): update roadmap -- cycle 24",
+    "latest_cycle": 24,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
