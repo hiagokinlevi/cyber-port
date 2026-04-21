@@ -229,10 +229,10 @@
   {
     "name": "cryptologik",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cryptologik",
-    "latest_commit": "6b33bcf",
+    "latest_commit": "646b24d",
     "latest_commit_date": "2026-04-21",
-    "latest_commit_message": "docs(cryptologik): update roadmap -- cycle 22",
-    "latest_cycle": 22,
+    "latest_commit_message": "docs(cryptologik): update roadmap -- cycle 23",
+    "latest_cycle": 23,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
