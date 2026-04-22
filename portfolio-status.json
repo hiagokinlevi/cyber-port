@@ -187,10 +187,10 @@
   {
     "name": "container-defense-stack",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/container-defense-stack",
-    "latest_commit": "b73542e",
+    "latest_commit": "ece4ef2",
     "latest_commit_date": "2026-04-21",
-    "latest_commit_message": "docs(container-defense-stack): update roadmap -- cycle 24",
-    "latest_cycle": 24,
+    "latest_commit_message": "docs(container-defense-stack): update roadmap -- cycle 25",
+    "latest_cycle": 25,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
