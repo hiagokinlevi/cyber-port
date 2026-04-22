@@ -82,10 +82,10 @@
   {
     "name": "ai-security-guardrails",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ai-security-guardrails",
-    "latest_commit": "a74e2d0",
+    "latest_commit": "4afea73",
     "latest_commit_date": "2026-04-22",
-    "latest_commit_message": "docs(ai-security-guardrails): update roadmap -- cycle 26",
-    "latest_cycle": 26,
+    "latest_commit_message": "docs(ai-security-guardrails): update roadmap -- cycle 27",
+    "latest_cycle": 27,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -95,9 +95,9 @@
       "Per-tenant policy support (multi-tenant applications)",
       "Rate limiting per user / session"
     ],
-    "test_file_count": 20,
+    "test_file_count": 21,
     "prompt_doc_count": 1,
-    "python_module_count": 63,
+    "python_module_count": 65,
     "completion_band": "active",
     "target_track": "complete-next",
     "priority_rank": 12
@@ -168,10 +168,10 @@
   {
     "name": "phishing-surface-monitor",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/phishing-surface-monitor",
-    "latest_commit": "526d972",
+    "latest_commit": "49aebef",
     "latest_commit_date": "2026-04-22",
-    "latest_commit_message": "docs(phishing-surface-monitor): update roadmap -- cycle 26",
-    "latest_cycle": 26,
+    "latest_commit_message": "docs(phishing-surface-monitor): update roadmap -- cycle 27",
+    "latest_cycle": 27,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -179,7 +179,7 @@
     "open_roadmap_preview": [],
     "test_file_count": 20,
     "prompt_doc_count": 0,
-    "python_module_count": 60,
+    "python_module_count": 61,
     "completion_band": "near-complete",
     "target_track": "beyond-ready",
     "priority_rank": 6
