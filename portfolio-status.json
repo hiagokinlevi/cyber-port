@@ -105,10 +105,10 @@
   {
     "name": "iam-audit-lab",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/iam-audit-lab",
-    "latest_commit": "62bd105",
+    "latest_commit": "a4602a1",
     "latest_commit_date": "2026-04-23",
-    "latest_commit_message": "docs(iam-audit-lab): update roadmap -- cycle 31",
-    "latest_cycle": 31,
+    "latest_commit_message": "docs(iam-audit-lab): update roadmap -- cycle 32",
+    "latest_cycle": 32,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -118,9 +118,9 @@
       "AWS: Identify roles with no trust policy referencing known services",
       "Azure: Detect guest users with privileged role assignments"
     ],
-    "test_file_count": 25,
+    "test_file_count": 26,
     "prompt_doc_count": 1,
-    "python_module_count": 75,
+    "python_module_count": 76,
     "completion_band": "advanced",
     "target_track": "complete-next",
     "priority_rank": 9
