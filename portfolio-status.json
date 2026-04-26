@@ -128,10 +128,10 @@
   {
     "name": "cloud-posture-watch",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cloud-posture-watch",
-    "latest_commit": "98fb566",
+    "latest_commit": "3ce5cc6",
     "latest_commit_date": "2026-04-25",
-    "latest_commit_message": "docs(cloud-posture-watch): update roadmap -- cycle 37",
-    "latest_cycle": 37,
+    "latest_commit_message": "docs(cloud-posture-watch): update roadmap -- cycle 38",
+    "latest_cycle": 38,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
