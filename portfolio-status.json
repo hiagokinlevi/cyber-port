@@ -82,10 +82,10 @@
   {
     "name": "ai-security-guardrails",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/ai-security-guardrails",
-    "latest_commit": "87cb265",
+    "latest_commit": "a2515bf",
     "latest_commit_date": "2026-04-26",
-    "latest_commit_message": "docs(ai-security-guardrails): update roadmap -- cycle 38",
-    "latest_cycle": 38,
+    "latest_commit_message": "docs(ai-security-guardrails): update roadmap -- cycle 39",
+    "latest_cycle": 39,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -95,9 +95,9 @@
       "Per-tenant policy support (multi-tenant applications)",
       "Rate limiting per user / session"
     ],
-    "test_file_count": 30,
+    "test_file_count": 31,
     "prompt_doc_count": 1,
-    "python_module_count": 82,
+    "python_module_count": 84,
     "completion_band": "active",
     "target_track": "complete-next",
     "priority_rank": 12
@@ -229,10 +229,10 @@
   {
     "name": "cryptologik",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/cryptologik",
-    "latest_commit": "c83e52c",
+    "latest_commit": "fda90f0",
     "latest_commit_date": "2026-04-26",
-    "latest_commit_message": "docs(cryptologik): update roadmap -- cycle 38",
-    "latest_cycle": 38,
+    "latest_commit_message": "docs(cryptologik): update roadmap -- cycle 39",
+    "latest_cycle": 39,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -242,9 +242,9 @@
       "Full SWC registry coverage (all 37 entries)",
       "SCSVS (Smart Contract Security Verification Standard) mapping"
     ],
-    "test_file_count": 43,
+    "test_file_count": 44,
     "prompt_doc_count": 1,
-    "python_module_count": 93,
+    "python_module_count": 94,
     "completion_band": "active",
     "target_track": "complete-next",
     "priority_rank": 10
