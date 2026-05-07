@@ -147,10 +147,10 @@
   {
     "name": "secret-leak-sentinel",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/secret-leak-sentinel",
-    "latest_commit": "10b2edc",
-    "latest_commit_date": "2026-05-06",
-    "latest_commit_message": "docs(secret-leak-sentinel): update roadmap -- cycle 56",
-    "latest_cycle": 56,
+    "latest_commit": "61cccb7",
+    "latest_commit_date": "2026-05-07",
+    "latest_commit_message": "docs(secret-leak-sentinel): update roadmap -- cycle 57",
+    "latest_cycle": 57,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
@@ -158,9 +158,9 @@
     "open_roadmap_preview": [
       "ML-based classifier to reduce false positive rate on entropy findings"
     ],
-    "test_file_count": 41,
+    "test_file_count": 42,
     "prompt_doc_count": 1,
-    "python_module_count": 87,
+    "python_module_count": 88,
     "completion_band": "near-complete",
     "target_track": "complete-now",
     "priority_rank": 8
@@ -168,10 +168,10 @@
   {
     "name": "phishing-surface-monitor",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/phishing-surface-monitor",
-    "latest_commit": "c2c8594",
-    "latest_commit_date": "2026-05-06",
-    "latest_commit_message": "docs(phishing-surface-monitor): update roadmap -- cycle 56",
-    "latest_cycle": 56,
+    "latest_commit": "20c8360",
+    "latest_commit_date": "2026-05-07",
+    "latest_commit_message": "docs(phishing-surface-monitor): update roadmap -- cycle 57",
+    "latest_cycle": 57,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
