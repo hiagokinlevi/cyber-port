@@ -40,10 +40,10 @@
   {
     "name": "waf-defense-rulepacks",
     "path": "/home/runner/work/cyber-port/cyber-port/.cache/portfolio-status/waf-defense-rulepacks",
-    "latest_commit": "de549b9",
+    "latest_commit": "efcab04",
     "latest_commit_date": "2026-05-07",
-    "latest_commit_message": "docs(waf-defense-rulepacks): update roadmap -- cycle 58",
-    "latest_cycle": 58,
+    "latest_commit_message": "docs(waf-defense-rulepacks): update roadmap -- cycle 59",
+    "latest_cycle": 59,
     "required_files_present": 6,
     "required_files_total": 6,
     "missing_required_files": [],
